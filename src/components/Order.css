@@ -1,0 +1,69 @@
+/* src/components/Cart.css */
+.main-order-cart {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-cart {
+  position: relative;
+  width: 500px;
+  height: auto;
+  background-color: #dfcfcf;
+  border: 1px solid #ccc;
+  border-radius: 7%;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.cart h3 {
+  text-align: center;
+}
+
+.no-orders {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.no-orders-image {
+  width: auto;
+  height: auto;
+}
+
+.no-orders-message {
+  font-size: 18px;
+  color: #333;
+}
+
+.order-now-button {
+  position: absolute;
+  top: 33rem;
+  left: 47.9rem;
+  transform: translate(-50%, -50%);
+  background-color: rgb(222, 166, 64);
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.order-now-button:hover {
+  border: 3px solid black;
+  background-color: #cdd5dea7;
+}
